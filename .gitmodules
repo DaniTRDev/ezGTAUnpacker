@@ -1,0 +1,9 @@
+[submodule "vendor/formatPE"]
+	path = vendor/formatPE
+	url = https://github.com/HoShiMin/formatPE
+[submodule "vendor/asmjit"]
+	path = vendor/asmjit
+	url = https://github.com/asmjit/asmjit
+[submodule "vendor/json"]
+	path = vendor/json
+	url = https://github.com/nlohmann/json
