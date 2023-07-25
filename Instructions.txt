@@ -1,0 +1,9 @@
+You'll need asmjit, formatPE and nlohmann's json library; they must be cloned in /vendor/
+
+
+In case you don't have cloned them:
+
+git clone https://github.com/HoShiMin/formatPE
+git clone https://github.com/asmjit/asmjit
+git clone https://github.com/nlohmann/json
+
