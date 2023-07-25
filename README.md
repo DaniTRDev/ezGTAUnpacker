@@ -4,14 +4,14 @@ various things to ensure correct analysis in RE softwares.
 
 # Instructions
 After compiling the solution you'll need to do 2 things:
-- Put the encrypted executable into the directory in which ezUnpacker.exe is
-- Provide a good 'data.json' file, which is crucial for the whole decrpyption process.
+- Put the encrypted executable into the directory in which ezUnpacker.exe is.
+- Provide a good 'data.json' file, which is crucial for the whole decryption process.
 
 # data.json
-This file contains RVAs and INTs that will be used to decrypt the content. Here's an example of how it looks like:
+This file contains RVAs and INTs that will be used to decrypt the content. Here's an example of how it looks like (1.67):
 
 ```json
-{
+{ 
   "tokenBlock": "0x3958E7F",
   "encryptedDataBlock": "0x3958E7F",
   "decryptionKeyRot": "0xCC5C4F",
