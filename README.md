@@ -3,7 +3,7 @@ This project aims to decrypt the executable statically (without dumping) and fix
 various things to ensure correct analysis in RE softwares.
 
 # Instructions
-After compiling the solution you'll need 2 things:
+After compiling the solution you'll need to do 2 things:
 - Put the encrypted executable into the directory in which ezUnpacker.exe is
 - Provide a good 'data.json' file, which is crucial for the whole decrpyption process.
 
