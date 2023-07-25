@@ -1,0 +1,10 @@
+{
+  "tokenBlock": "0x3958E7F",
+  "encryptedDataBlock": "0x3958E7F",
+  "decryptionKeyRot": "0xCC5C4F",
+  "decryptionKeyRot2": "0x61C88647",
+  "decryptionKeyRot3": "0x0F703ED3B",
+  "decryptionKey": "0x3322308",
+  "tokenCheck": "0x0CEB4E63",
+  "keyCheck": "0xFE688B47"
+}
