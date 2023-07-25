@@ -42,7 +42,6 @@ void patchEp(Pe::PeNative& peFile, uint64_t oepStart)
     
     newEp.buildPatch = [oepStart, mainAddress](asmjit::x86::Assembler* a) -> bool
     {
-        /*fix permissions at runtime, otherwise PE checks won't pass...*/
         using namespace asmjit::x86;
 
         a->sub(rsp, 0x28);
@@ -63,6 +62,7 @@ void patchEp(Pe::PeNative& peFile, uint64_t oepStart)
 }
 void fixSectionsPermissions(Pe::PeNative& peFile)
 {
+    /*you'll need to deal with permissions at runtime or patch PE checks...*/
     for (uint64_t i = 0; i < peFile.sections().count(); i++)
     {
         auto section = const_cast<Pe::GenericTypes::SecHeader*>(&peFile.sections().sections()[i]);
