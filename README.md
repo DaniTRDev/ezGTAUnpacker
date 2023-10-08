@@ -4,6 +4,7 @@ various things to ensure correct analysis in RE softwares.
 
 # Instructions
 After compiling the solution you'll need to do 2 things:
+- Rename the executable to 'encrypted.exe'.
 - Put the encrypted executable into the directory in which ezUnpacker.exe is.
 - Provide a good 'data.json' file, which is crucial for the whole decryption process.
 
