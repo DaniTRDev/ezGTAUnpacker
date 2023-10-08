@@ -12,15 +12,13 @@ After compiling the solution you'll need to do 2 things:
 This file contains RVAs and INTs that will be used to decrypt the content. Here's an example of how it looks like (1.67):
 
 ```json
-{ 
-  "tokenBlock": "0x3958E7F",
-  "encryptedDataBlock": "0x3958E7F",
-  "decryptionKeyRot": "0xCC5C4F",
+{
+  "tokenBlock": "0x3AE76E3",
+  "encryptedDataBlock": "0x3AE76E3",
+  "decryptionKeyRot": "0x39EFF7F",
   "decryptionKeyRot2": "0x61C88647",
-  "decryptionKeyRot3": "0x0F703ED3B",
-  "decryptionKey": "0x3322308",
-  "tokenCheck": "0x0CEB4E63",
-  "keyCheck": "0xFE688B47"
+  "decryptionKey": "0x34FC8C5",
+  "tokenCheck": "0x0D4B6CD6E"
 }
 ```
 
