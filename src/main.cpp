@@ -81,7 +81,7 @@ void updatePeChecksum(smartBuffer& data, Pe::PeNative& peFile)
 
 int main(int argv, char** argc)
 {
-    auto data = smartBuffer(std::filesystem::current_path() / "GTA5.exe");
+    auto data = smartBuffer(std::filesystem::current_path() / "encrypted.exe");
     auto peFile = Pe::PeNative::fromFile(data.getBufferData());
 
     std::cout << "Unpacking...." << std::endl;
