@@ -14,14 +14,12 @@ namespace unpacker
 		/*the 2 values used to rotate the key*/
 		int32_t*					m_decryptionKeyRot;
 		int32_t						m_decryptionKeyRot2;
-		int32_t						m_decryptionKeyRot3; /*this one is used to break the key*/
 
 		/*self explanatory*/
 		Pe::PeNative*				m_peFile;
 
 		/*THINGS USED TO CHECK IF DECOMPILATION WAS GOOD*/
 		uint32_t					m_initialDecTokenResult;
-		uint32_t					m_decryptionKeyResult;
 	};
 	struct encryptedDataInfo
 	{

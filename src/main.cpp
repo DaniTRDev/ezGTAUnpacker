@@ -21,13 +21,11 @@ void unpackPE(Pe::PeNative& peFile)
 
         context.m_decryptionKeyRot = (int32_t*)(peFile.byRva<uint64_t>(jsonHexStr2Uint(json["decryptionKeyRot"])));
         context.m_decryptionKeyRot2 = int32_t(jsonHexStr2Uint(json["decryptionKeyRot2"]));
-        context.m_decryptionKeyRot3 = int32_t(jsonHexStr2Uint(json["decryptionKeyRot3"]));
         context.m_decryptionKey = (int32_t*)(peFile.byRva<uint64_t>(jsonHexStr2Uint(json["decryptionKey"])));
 
         context.m_peFile = &peFile;
 
         context.m_initialDecTokenResult = uint32_t(jsonHexStr2Uint(json["tokenCheck"]));
-        context.m_decryptionKeyResult = uint32_t(jsonHexStr2Uint(json["keyCheck"]));
         unpacker::unpack(&context);
     }
     catch (nlohmann::json::exception& e)
@@ -83,7 +81,7 @@ void updatePeChecksum(smartBuffer& data, Pe::PeNative& peFile)
 
 int main(int argv, char** argc)
 {
-    auto data = smartBuffer(std::filesystem::current_path() / "encrypted.exe");
+    auto data = smartBuffer(std::filesystem::current_path() / "GTA5.exe");
     auto peFile = Pe::PeNative::fromFile(data.getBufferData());
 
     std::cout << "Unpacking...." << std::endl;
