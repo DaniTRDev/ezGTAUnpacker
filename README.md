@@ -1,5 +1,5 @@
-# OUTDATED
-I'll post the new 'data.json' as soon as I can.
+# STATE
+Updated offsets for version 3095.
 
 # ezUnpacker
 This project aims to decrypt the executable statically (without dumping) and fix 
