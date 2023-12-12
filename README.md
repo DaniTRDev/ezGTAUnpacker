@@ -1,3 +1,6 @@
+# OUTDATED
+I'll post the new 'data.json' as soon as I can.
+
 # ezUnpacker
 This project aims to decrypt the executable statically (without dumping) and fix 
 various things to ensure correct analysis in RE softwares.
