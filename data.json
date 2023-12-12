@@ -1,8 +1,8 @@
 {
-  "tokenBlock": "0x3AE76E3",
-  "encryptedDataBlock": "0x3AE76E3",
-  "decryptionKeyRot": "0x39EFF7F",
+  "tokenBlock": "0x3D2E75A",
+  "encryptedDataBlock": "0x3D2E75A",
+  "decryptionKeyRot": "0xD5D37E",
   "decryptionKeyRot2": "0x61C88647",
-  "decryptionKey": "0x34FC8C5",
-  "tokenCheck": "0x0D4B6CD6E"
+  "decryptionKey": "0x3C458E6",
+  "tokenCheck": "0xEDC369C6"
 }
